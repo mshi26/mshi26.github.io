@@ -1,0 +1,191 @@
+header{
+    background-color:transparent; 
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav li {
+  float:left;
+}
+
+nav li a {
+  display: block;
+  color:#1D1B15;
+  font-size: 18px;
+  padding: 18px 24px;
+  font-family: sans-serif;
+}
+
+nav li a:hover {
+  background-color: #F4F3FE;
+}
+
+h1{
+    font-size:60px;
+    color:#4646ED;
+}
+
+h5{
+    font-size:20px;
+    color:#0B2C7A;
+}
+
+#bigtext{
+    font-size:150px;
+    font-family:sans-serif;
+    font-weight:bold;
+    text-align:left;
+    color:#4646ED;
+    position:fixed;
+    top:150px;
+}
+
+#introtext{
+    font-size:24px;
+    font-family:sans-serif;
+    text-align:left;
+    color:white;
+    position:relative;
+    top:460px;
+    width:900px;
+    line-height: 1.5;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color:#1D1B15;
+
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F5F4F2;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #1D1B15;
+    border-top: 1px solid #ddd;}
+    
+img.cover-profile {
+    border-radius:50%;
+    position:fixed;
+    height:420px;
+    top:300px;
+    left:1000px;
+}
+
+#resume{
+    position:absolute;
+    top:260px;
+    width:90%;
+    border-collapse:collapse;
+}
+
+#resume td, #resume th{
+    border:1px solid #000000;
+    padding:24px;
+}
+
+#resume th{
+    padding-top:24px;
+    padding-bottom:24px;
+    text-align:left;
+    background-color:#F4F3FE;
+}
+
+#resume tr{
+    padding-top:24px;
+    padding-bottom:24px;
+    background-color:white;
+    line-height: 1.5;
+}
+
+#resume tr:hover {background-color:#F7F7FE;}
+
+.downloadresume {
+  position:absolute;
+  left: 10px;
+  top:155px;
+  width: 100%;
+  color: #1D1B15;
+  font-size:16px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.video-container {
+    width:1200px;
+    height: auto;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-description {
+    padding: 10px;
+    font-size: 18px;
+    color: #1D1B15;
+    font-family:sans-serif;
+}
+
+#video-background {
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    overflow:hidden;
+    z-index:-1;
+}
+
+div.hobbygallery {
+  margin-top:100px;    
+  margin: 10px;
+  border: 4px solid #4646ED;
+  border-radius: 12px;
+  float: left;
+  width: 320px;
+    
+}
+
+
+div.hobbygallery:hover {
+  border: 6px solid #4646ED;
+  border-radius: 12px;    
+}
+
+div.hobbygallery img {
+  width: 320px;
+  height: auto;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+}
+
+div.desc {
+  padding: 24px;
+  text-align: center;
+}
+
+.nested-list {
+    list-style-type:circle;
+    margin: 10px;
+    padding: 20px;
+    background:#DEECFD;}
+  
